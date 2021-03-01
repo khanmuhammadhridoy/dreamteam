@@ -32,14 +32,8 @@ const Players = (props) => {
         </div>
         <p>Batting Style: {BattingStyle}</p>
         <p>Bowling Style: {BowlingStyle}</p>
-        <div className="row">
-          <div className="col-md-6">
-            <p>Grade: {Grade}</p>
-          </div>
-          <div className="col-md-6">
-            <p>Salary: ${salary}</p>
-          </div>
-        </div>
+        <p>Grade: {Grade}</p>
+        <p>Salary: ${salary}</p>
         <p>Country: {country}</p>
         <Button
           className="button"

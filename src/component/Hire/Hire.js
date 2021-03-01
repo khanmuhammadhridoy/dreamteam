@@ -6,12 +6,14 @@ const Hire = (props) => {
   return (
     <div className="hire">
       <h4>Selected Team Member : {props.hire.length}</h4>
-      <h4>Salary : ${salary}</h4>
+      <h4>Total Cost : ${salary}</h4>
       <div className="selectedPlayer">
         <h4>Selected Players Name</h4>
         <ul>
           {player.map((player) => (
-            <li key={player.index}>{player.name}</li>
+            <li key={player.index}>
+                {player.name} : ${player.salary}
+            </li>
           ))}
         </ul>
       </div>
