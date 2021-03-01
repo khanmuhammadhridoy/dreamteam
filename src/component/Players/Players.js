@@ -37,7 +37,7 @@ const Players = (props) => {
             <p>Grade: {Grade}</p>
           </div>
           <div className="col-md-6">
-            <p>Salary: {salary}</p>
+            <p>Salary: ${salary}</p>
           </div>
         </div>
         <p>Country: {country}</p>
