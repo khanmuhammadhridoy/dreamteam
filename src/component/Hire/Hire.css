@@ -1,0 +1,13 @@
+.hire {
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px lightgray;
+  padding: 15px;
+}
+.hire h4 {
+  font-size: 17px;
+}
+.selectedPlayer {
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  padding: 15px;
+}

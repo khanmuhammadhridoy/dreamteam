@@ -1,0 +1,22 @@
+.player {
+  margin: 10px;
+  padding: 10px 10px 15px 10px;
+  box-shadow: 5px 5px 5px lightgray;
+  display: flex;
+}
+.player p {
+  line-height: 1rem;
+}
+.playerImage img {
+  width: 180px;
+  height: 200px;
+}
+.playerImage {
+  margin-right: 10px;
+}
+.button {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  font-weight: 900;
+}
